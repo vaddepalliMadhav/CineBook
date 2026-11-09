@@ -30,6 +30,17 @@ A responsive, interactive movie ticket booking demo built with Flutter and Provi
    flutter build web
    ```
 
+## Deploy to GitHub Pages
+
+Pushing to the `main` branch runs the GitHub Actions workflow to analyze, test,
+build, and deploy the app. The published site is:
+
+https://vaddepallimadhav.github.io/CineBook/
+
+For the first deployment, set the repository's **Settings → Pages → Build and
+deployment → Source** to **GitHub Actions**. The workflow needs the repository's
+`GITHUB_TOKEN` permissions for Pages and deployments, which it requests itself.
+
 ## Notes
 - This is a front-end lab project. Movie/showtime/seat data is sample data.
 - The booking flow is functional locally; it does not process real payments or reserve seats on a cinema server.
